@@ -16,3 +16,4 @@ main = getLine >>=
        putStrLn . ("Hello, " ++)
 ```
 
+[src](/src/book/book1/ex1a-io-monad.hs)
