@@ -38,6 +38,41 @@ Huh. Where'd that come from?
 
 Anyway! Easy-peasy-lemon-squeezy!
 
-## Exercise 1:
+## Quiz 1:
 
 Rewrite ex1a-(etc).hs to output the muchas smooches result.
+
+[src](/src/book/book1/quizzy1-muchas-smooches.hs) ... don't look until you've 
+completed the quiz, iff'n you'll get spankies from Madonna. That's a real thing,
+btw.
+
+## Explanation.
+
+No.
+
+You can DYOR. You know: look up things like `(>>=)` and `(++)` and stuff. If
+you can't, consider taking up birdwatching or gardening.
+
+But here's the meta.
+
+... *geophf goes full meta*
+
+A programmer once told me his wife said, after he solved a particularly thorny
+problem:
+
+"So, you changed a string into another string, right?"
+
+And that, folks, is what programming is, that's what math is, that's what
+everything all boils down to: you transform a set of input symbols to a set
+of output symbols.
+
+## Summary
+
+So: chapter 1, book 1 just gave you everything. If you can take an input string
+and change it to an output string, then you've written a program.
+
+You can now do anything.
+
+So: now. Go do anything.
+
+That's the rest of this book.
