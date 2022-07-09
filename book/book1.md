@@ -17,3 +17,27 @@ main = getLine >>=
 ```
 
 [src](/src/book/book1/ex1a-io-monad.hs)
+
+## Chapter 2: So, yeah, okay, whatever, but how do I compile this thing?
+
+```bash
+$ cd src/book/book1/
+$ ghc ex1a-io-monad.hs -o yo
+```
+
+... *it compiles, assembles, links, then loads.*
+
+... *Yes: I'm that old.*
+
+```bash
+$ echo geophf | ./yo
+Hello, geophf! I love you forever and want to give you muchas smooches!
+```
+
+Huh. Where'd that come from?
+
+Anyway! Easy-peasy-lemon-squeezy!
+
+## Exercise 1:
+
+Rewrite ex1a-(etc).hs to output the muchas smooches result.
