@@ -6,7 +6,9 @@ Doing things. useful. In Haskell. from first principles.
 ### Text
 
 * [Chapter 1](book/book1/ch01.md): Standard Input/Output
+  * [Pop quiz](book/book1/ch01.md#quiz-1) muchas smoochas
 * [Chapter 2](book/book1/ch02.md): File Input/Output
+  * [Pop quiz 2](book/book1/ch02.md#pop-quiz-2): line numbers with errors
 
 ### Code
 
@@ -16,6 +18,7 @@ an applicative psychopath).
   * [lines](src/book/book1/ex2a-line-count.hs)
   * [csv](src/book/book1/ex2b-csv-parser.hs)
   * [maybe-csv](src/book/book1/ex2c-maybe-csv-parser.hs)
+  * [either-csv-rudimentary](src/book/book1/ex2d-either-csv-parser.hs)
 
 ### Data
 
