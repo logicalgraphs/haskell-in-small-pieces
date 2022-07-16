@@ -34,7 +34,7 @@ main :: IO ()
 main = getArgs >>= mapM_ heroOut
 
 heroOut :: FilePath -> IO ()
-heroOut f = putStrLn ("Coins in " ++ f ++ ":\n") >> heroM f >>=
+heroOut f = putStrLn ("Heroes in " ++ f ++ ":\n") >> heroM f >>=
             uncurry (resultsAndErrors f)
 
 heroM :: FilePath -> IO ([Hero], [LineError])
@@ -145,7 +145,7 @@ data Percentage = P Double
 
 instance Show Percentage where
    show (P p) = (uncurry (++) . second ((++ "%") . take 3)) 
-                (break (=='.') (show p))
+                (break (=='.') (show (100 * p)))
 
 type Frequency a = Map a Percentage
 
