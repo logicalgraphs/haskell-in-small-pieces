@@ -140,6 +140,31 @@ count :: (Eq b, Ord b) => (a -> b) -> [a] -> Distribution b
 count f = Map.fromList . map cnt . group . sort . map f
    where cnt = head &&& length
 
+{--
+>>> import Data.List
+>>> import Data.Ord
+>>> mapM_ (\(a,b) -> putStrLn (a ++ "," ++ show b)) $ sortOn (Down . snd) $ Map.toList (count class1 hs)
+Warrior,331
+Knight,329
+Archer,305
+Thief,305
+Pirate,304
+Priest,282
+DarkKnight,261
+Paladin,256
+Wizard,253
+Monk,249
+Ninja,202
+Summoner,185
+Berserker,104
+Seer,85
+Dragoon,84
+Sage,82
+Shapeshifter,49
+DreadKnight,9
+--}
+
+
 data Percentage = P Double
    deriving (Eq, Ord)
 
@@ -148,4 +173,3 @@ instance Show Percentage where
                 (break (=='.') (show (100 * p)))
 
 type Frequency a = Map a Percentage
-
