@@ -10,6 +10,7 @@ Doing things. useful. In Haskell. from first principles.
 * [Chapter 2](book/book1/ch02.md): File Input/Output
   * [Pop quiz 2](book/book1/ch02.md#pop-quiz-2): line numbers with errors
   * [Pop quiz 3](book/book1/ch02.md#pop-quiz-3): stderr
+* [Chapter 3](book/book1/ch03.md): Data Analyses
 
 ### Code
 
@@ -20,6 +21,7 @@ an applicative psychopath).
   * [csv](src/book/book1/ex2b-csv-parser.hs)
   * [maybe-csv](src/book/book1/ex2c-maybe-csv-parser.hs)
   * [either-csv-rudimentary](src/book/book1/ex2d-either-csv-parser.hs)
+  * [file output](src/book/book1/ex2e-file-out.hs)
 
 ### Data
 
