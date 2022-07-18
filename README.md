@@ -9,7 +9,7 @@ Doing things. useful. In Haskell. from first principles.
   * [Pop quiz 1](book/book1/ch01.md#quiz-1): muchas smoochas
 * [Chapter 2](book/book1/ch02.md): File Input/Output
   * [Pop quiz 2](book/book1/ch02.md#pop-quiz-2): line numbers with errors
-  * [Pop quiz 3](book/book1/ch02.md#pop-quiz-3)
+  * [Pop quiz 3](book/book1/ch02.md#pop-quiz-3): stderr
 
 ### Code
 
